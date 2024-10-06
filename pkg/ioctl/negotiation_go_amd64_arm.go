@@ -1,4 +1,4 @@
-//go:build linux && !cgo && amd64
+//go:build linux && !cgo && (amd64 || arm)
 
 package ioctl
 
